@@ -7,32 +7,32 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  create_an_array << "gloves"
+  add_element_to_end_of_array = (create_an_array << "gloves")
    puts create_an_array.inspect
 end
 
 def add_element_to_start_of_array(array, element)
-  create_an_array.unshift ("jacket")
+  add_element_to_start_of_array = create_an_array.unshift ("jacket")
   puts create_an_array.inspect
 end
 
 def remove_element_from_end_of_array(array)
-  create_an_array.pop
+  remove_element_from_end_of_array = create_an_array.pop
    puts create_an_array.inspect
 end
 
 def remove_element_from_start_of_array(array)
-  create_an_array.shift ("jacket")
+  remove_element_from_start_of_array = create_an_array.shift ("jacket")
 end
 
 def retrieve_element_from_index(array, index_number)
-  create_an_array [3]
+  retrieve_element_from_index = create_an_array [3]
 end
 
 def retrieve_first_element_from_array(array)
-  create_an_array.first
+  retrieve_first_element_from_array = create_an_array.first
 end
 
 def retrieve_last_element_from_array(array)
-  create_an_array.last
+  retrieve_last_element_from_array = create_an_array.last
 end
